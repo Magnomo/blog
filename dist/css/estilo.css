@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+/* Navbar*/
+#nav{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+#navbarCollapse{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+#logo{
+height: 70px;    
+}
+
+#login{
+    display: flex;
+
+}
+#nav ul li{
+    margin:0 5px;
+}
+#nav ul li a {
+    color:white
+}
+
+#nav ul li a:hover {
+    text-decoration: none;
+    color:#696969;
+}
+/* Slide-carousel*/
+div#k1{
+    background: url('../imgs/k1.jpg') no-repeat top;
+}
+div#k2{
+    background: url('../imgs/k2.jpg') no-repeat bottom;
+}
+div#k3{
+    background: url('../imgs/k3.jpg') no-repeat center;
+}
+div#k1, div#k2, div#k3 {
+width: 100%;
+height: 700px;
+
+background-size: cover;
+}
+
+/*Sidebar*/
+.container{
+    margin-top: 10px;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    background:white;
+    width:600px;
+}
+
+.div2{
+    display: flex;
+    background:white;
+    
+}
+.img1{
+    background: url('../imgs/s1.jpg') no-repeat center;  
+}
+.img2{
+    background: url('../imgs/s2.jpg') no-repeat center;   
+}
+.img3{
+    background: url('../imgs/s3.jpg') no-repeat center;
+}       
+.img1, .img2, .img3{
+    width: 30vh;
+    height: 300px;
+    margin:0;
+} 
+
+.pdiv{
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    width: 30vh;
+    margin-top: 30px;
+    text-align: end;
+}
+/*Footer*/
+a:hover{
+    text-decoration:none;
+}
+.section-padding {
+	padding: 60px 0;
+}
+.bottom {
+    background-color: #0a1c2e;
+}
+.bottom .copyright {
+    color: #e5e5e5;
+    font-weight: 600;
+}
+.copyright a {
+    color: #f2ff49;
+   
+    padding-right: 3px;
+}
+.bottom p {
+  
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.copyright p span {
+    color: #d1caca;
+}
+.bottom .copyright p, .bottom .copyright a:hover{
+    color: #6c6d83;
+}
