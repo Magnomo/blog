@@ -9,5 +9,13 @@ router.get('/teste', (req, res, next) => {
         res.send(dados)
     }, next)
 })
+router.get('/login', (req, res, next) => {
+    res.render('login');
+})
+router.post('/Cadastrar', (req, res, next) => {
+    knex('usuario').insert(req.body).then((dados) => {
+        res.send(dados)
+    }, next)
+})
 
 module.exports = router;
